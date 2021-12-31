@@ -1,26 +1,12 @@
-description*
-['*]*
-!*
-Building config*
-interface*
-[#]*
-[-]*
-*[#]show*
 *Ethernet* is
 Vlan* is
 no*
 ^*
 [@]*
-hostname*
-vlan*
 Current config*
 Loopback*
 *FiveGigE*
-route-map*
-track*
-Port-channel*
 access-list *
-policy-map*
 aaa*
 shutdown*
 *>show*
@@ -36,24 +22,18 @@ duplex
 speed
 vrf
 spanning-tree*
-*prefix-list*
 ip sla*
 line *
-*ssh*
 match
 deny
 permit
-version*
 load[-]*
 network
 stopbit*
 mac?address*
 exit*
 addres*
-snmp*
-banner*
 *tacac*
-service pass*
 *default*
 *cpu*
 *queue*
@@ -68,3 +48,76 @@ icmp*
 transceiver*
 name
 *timeout*
+ip igmp
+ip arp
+* access-list
+!*
+ip* rout*
+Port
+aaa *
+*spanning-tree*
+Eth*
+*logging*
+Po*
+no *
+snmp*
+*lldp*
+policy-map*
+*radius*
+*tacacs*
+interface*
+*ssh*
+telnet*
+vlan*
+[-]*
+[*]*
+cdp*
+*lacp*
+*monitor*
+slot*
+*[#]show*
+*>show
+line*
+*ntp*
+mac*
+port-channel*
+track*
+hostname*
+description*
+switchname*
+none*
+route-map*
+banner*
+click*
+*dhcp*
+*prefix-list*
+*ospf*
+vrf*
+*pim*
+version*
+hardware*
+*vpc*
+*clock*
+*adjacency
+*domain-name*
+service pass*
+vtp*
+ip internal
+*name-server
+boot*
+ip sla
+*shutdown*
+poweroff module
+"ip source-route
+"
+*udld*
+"control-plane
+"
+zone name
+*jumbomtu*
+vdc*
+fex*
+*scp*
+*sftp*
+['*]*
+Building config*
