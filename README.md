@@ -12,3 +12,5 @@ To have partial match you can use below example:-
 "interface GigabitEthernet1/0/1" >>>>> this will be matched by "interface *"
 
 "ip prefix-list Cisco" >>>>> this will be matched by "* prefix-list *"
+
+"R1#show interfaces" >>>>> this will be matched by "*[#]show interfaces"
