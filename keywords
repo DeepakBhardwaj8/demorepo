@@ -1,26 +1,26 @@
 *Ethernet* is  :remove physical interfaces
-Vlan* is
-no*
-^*
-[@]*
-Current config*
-Loopback*
-*FiveGigE*
-access-list *
-aaa*
-shutdown*
-*>show*
-switchport*
-storm-control*
-class-map*
-*access-list*
-ip rout*
-logging*
-login
-ntp*
-duplex
-speed
-vrf
+Vlan* is       :remove vlan interfaces
+no*            :remove command with no
+^*             :remove if line starts with ^
+[@]*           :remove if line starts with @
+Current config*   :remove if it is output of Current config
+Loopback*         :remove if it is Loopback interface
+*FiveGigE*        :remove if it is FiveGig interface
+access-list *     :remove access-list configuration
+aaa*              :remove AAA configuration
+shutdown*         :remove if any command starts with shutdown
+*>show*           :remove if it is show command
+switchport*       :remove all switchport configuration
+storm-control*    :remove storm-control configuration
+class-map*        :remove class-map configuration
+*access-list*     :remove ip access-list configuration
+ip rout*          :remove statically configured routes
+logging*          :remove logging session configuration
+login             :remove login configuration 
+ntp*              :remove NTP configuration
+duplex            :remove interface duplex setting
+speed             :remove interface speed setting
+vrf               :remove vrf configuration
 spanning-tree*
 ip sla*
 line *
