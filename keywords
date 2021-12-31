@@ -107,11 +107,9 @@ boot*
 ip sla
 *shutdown*
 poweroff module
-"ip source-route
-"
+ip source-route
 *udld*
-"control-plane
-"
+control-plane
 zone name
 *jumbomtu*
 vdc*
